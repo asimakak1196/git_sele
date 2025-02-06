@@ -23,7 +23,7 @@ jobs:
       fail-fast: false  # Continue with other jobs even if one fails
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: browser-actions/setup-chrome@v1
       with: 
         chrome-version: 132
